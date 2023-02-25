@@ -210,6 +210,7 @@ color: #757575;
 width: 150px;
 padding: 10px 0px;
 text-align: center;
+border-color: #757575;
 }
 .english-button2::before {
     content: url(images/web.png);
@@ -220,4 +221,10 @@ text-align: center;
     content: url(images/arrowDown.png);
     position: absolute;
     right: 10px;
+}
+.padding {
+    padding: 0px 16px;
+}
+.Main2 {
+    padding-top: 80px;
 }
