@@ -256,3 +256,8 @@ margin-left: 70px;
 
     }
 }
+@media screen and (max-width: 600px) {
+    .right-header {
+        display: none;
+    }
+}
