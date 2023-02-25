@@ -9,7 +9,6 @@
 }
 .netflixImg {
     max-width: 167px;
-    width: 100%;
 }
 main {
     background-image: url(images/hero.png);
@@ -20,9 +19,11 @@ h1 {
     font-size: 16px;
     padding: 0px;
     margin: 0 auto;
-    justify-content: space-between;
     margin: 0 auto !important;
     margin-left: 20px;
+}
+.between {
+    justify-content: space-between;
 }
 header {
     padding: 0px 16px;
@@ -75,7 +76,7 @@ color: #ffffff;
 }
 .email-input {
     width: 440px;
-    padding: 16px;
+    padding: 26px;
 }
 .start-button {
     color: #ffffff;
@@ -114,7 +115,7 @@ color: #ffffff;
 .enjoyWrapper {
     justify-content: space-evenly;
 }
-.Main2 {
+.Main2, .main3, .main4, .main5, .main6, .main7 {
     padding-bottom: 150px;
     border: none;
     border-bottom:  8px solid #222222;
@@ -133,4 +134,90 @@ color: #ffffff;
 } 
 .relative {
     position: relative;
+}
+.general-h2 {
+    font-size: 50px;
+    margin-bottom: 19px;
+}
+.general-p {
+    font-size: 26px;
+}
+.evenly {
+    justify-content: space-evenly;
+}
+.align {
+align-items: center;
+} 
+.general-img {
+    width: 100%;
+}
+.auto {
+    margin: 0 auto;
+}
+.plus {
+    width: 26px;
+    height: 26px;
+}
+.mw815 {
+    max-width: 815px;
+}
+.center {
+    justify-content: center;
+}
+.bg-grey {
+    background-color:  #303030;
+}
+.questionsWrapper {
+    padding: 0px 24px 0px 32px;
+    border-radius: 4px;
+}
+.frequentlyWrapper {
+    gap: 10px;
+}
+.ready-p {
+    font-size: 19px;
+    text-align: center;
+}
+.main7 {
+    border-bottom: none;
+}
+.readyWrapper {
+    margin-top: 70px;
+}
+.options-a{
+    color: #757575 !important;
+    font-size: 16px;
+}
+.optionsSection {
+    gap: 16px;
+}
+.call-p {
+    font-size: 22px;
+    color: #757575 !important;
+}
+.optionsWrapper {
+    margin-top: 70px;
+    gap: 50px;
+}
+.question-a {
+    font-size: 20px;
+}
+.english-button2 {
+ border: 1px solid;
+border-radius: 4px;
+font-size: 22px;
+color: #757575;
+width: 150px;
+padding: 10px 0px;
+text-align: center;
+}
+.english-button2::before {
+    content: url(images/web.png);
+    position: absolute;
+    left: 10px;
+}
+.english-button2::after {
+    content: url(images/arrowDown.png);
+    position: absolute;
+    right: 10px;
 }
