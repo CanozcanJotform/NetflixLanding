@@ -25,9 +25,6 @@ h1 {
 .between {
     justify-content: space-between;
 }
-header {
-    padding: 0px 16px;
-}
 a {
     text-decoration: none;
 }
@@ -211,6 +208,7 @@ width: 150px;
 padding: 10px 0px;
 text-align: center;
 border-color: #757575;
+margin-left: 70px;
 }
 .english-button2::before {
     content: url(images/web.png);
@@ -223,8 +221,38 @@ border-color: #757575;
     right: 10px;
 }
 .padding {
-    padding: 0px 16px;
+    padding: 0px 24px;
 }
 .Main2 {
     padding-top: 80px;
+}
+@media screen and (max-width: 900px) {
+    .col-res {
+        flex-direction: column;
+    }
+    .order {
+        order: -1;
+    }
+    .optionsWrapper {
+        text-align: center;
+    }
+    .questionsWrapper {
+        width: 350px;
+        
+    }
+    .frequentlyWrapper {
+        align-items: center;
+    }
+    .emailContainer {
+        width: 400px;;
+    }
+    .general-h2, .general-p {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 450px) {
+    .emailContainer {
+        width: 250px;
+
+    }
 }
