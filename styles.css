@@ -1,0 +1,136 @@
+.mw {
+    max-width: 1808px;
+}
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.netflixImg {
+    max-width: 167px;
+    width: 100%;
+}
+main {
+    background-image: url(images/hero.png);
+    padding-bottom: 150px;
+    border-bottom: 8px solid #222222;
+}
+h1 {
+    font-size: 16px;
+    padding: 0px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin: 0 auto !important;
+    margin-left: 20px;
+}
+header {
+    padding: 0px 16px;
+}
+a {
+    text-decoration: none;
+}
+body {
+font-family: sans-serif;
+margin: 0px;
+padding: 0px;
+color: #ffffff;
+box-sizing: border-box;
+}
+.right-header {
+    gap: 32px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 16px;
+}
+.english-button, .sign-button {
+border: 1px solid;
+padding: 8px 22px;
+border-radius: 4px;
+color: #ffffff;
+}
+.sign-button {
+    background-color: #E50914;
+}
+.left-header {
+    margin-top: 23px;
+}
+.netflixMainContainer {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.netflixTexts {
+    max-width: 686px;
+}
+.netflixTexts > p {
+    font-size: 26px;
+}
+.netflixTexts > h2 {
+    font-size: 64px;
+    margin-bottom: 12px;
+}
+.ready-p {
+    font-size: 19px !important;
+}
+.email-input {
+    width: 440px;
+    padding: 16px;
+}
+.start-button {
+    color: #ffffff;
+    width: 216px;
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: #E50914;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.start-button::after {
+    content: url(images/Frame.png);
+    height: 23px;
+}
+.enjoyWrapper {
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.general-container {
+    background-color: #000000;
+}
+.leftEnjoyWrapper > p {
+    max-width: 499px;
+    font-size: 26px;
+}
+.leftEnjoyWrapper > h2 {
+    font-size: 50px;
+    margin-bottom: 19px;
+}
+.rightEnjoyWrapper {
+    max-width: 530px;
+}
+.enjoyWrapper {
+    justify-content: space-evenly;
+}
+.Main2 {
+    padding-bottom: 150px;
+    border: none;
+    border-bottom:  8px solid #222222;
+}
+.english-button::before {
+    content: url(images/web.png);
+    position: absolute;
+    left: 4px;
+    top: 10px;
+}
+.english-button::after {
+    content: url(images/arrowDown.png);
+    position: absolute;
+    right: 4px;
+    top: 10px;
+} 
+.relative {
+    position: relative;
+}
